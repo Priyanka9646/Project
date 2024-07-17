@@ -1,0 +1,250 @@
+.form-container {
+  width: 80%;
+  height: 130%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  /* background: radial-gradient(
+    circle at 10% 20%,
+    rgb(254, 255, 165) 0%,
+    rgb(255, 232, 182) 90%
+  ); */
+}
+
+.left-corner,
+.right-corner {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.form-title {
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(254, 224, 35);
+  height: 20%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* color: #ffffff; */
+}
+
+.form {
+  transition: opacity 0.3s ease;
+  max-height: inherit;
+}
+
+/* .form-group-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  } */
+
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  /* height: 50px; */
+}
+
+.form-field {
+  /* width: 100%; */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.form-field.option {
+  padding: 10px;
+}
+.error-message {
+  color: red;
+  font-size: 0.8rem;
+  text-align: left;
+  margin: 4px 0 0 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  /* background-color: #28a745; Green color for submit button */
+  background-color: rgb(254, 224, 35);
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.submit-button:hover {
+  background-color: rgb(254, 224, 35);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear-button {
+  padding: 10px 20px;
+  background-color: #ffffff; /* Red color for clear button */
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.clear-button:hover {
+  background-color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.loading-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.success-message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: green;
+}
+
+.thank-you-message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.submitted {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.grid-row {
+  display: flex;
+  gap: 10px;
+}
+.grid-row .form-group {
+  width: 50%;
+}
+.grid-row .form-field {
+  width: auto;
+}
+.form-group.btns {
+  flex-direction: row !important;
+  margin-top: 5%;
+}
+
+.frame-19,
+.frame-19 * {
+  box-sizing: border-box;
+  /* margin-left: 5%; */
+}
+.frame-19 {
+  background: #ffffff;
+  height: 1076px;
+  position: relative;
+  overflow: hidden;
+}
+.mask-group {
+  height: auto;
+  position: absolute;
+  left: calc(50% - -864px);
+  top: 14px;
+  transform: translate(-1728px, 0px);
+  overflow: visible;
+}
+.rectangle-14 {
+  background: linear-gradient(
+    269.92deg,
+    rgba(18, 57, 172, 0.48) 0%,
+    rgba(4, 19, 61, 1) 100%
+  );
+  width: 1740px;
+  /* height: 1062px; */
+  position: absolute;
+  left: calc(50% - 870px);
+  top: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 100px;
+}
+.group-10 {
+  position: absolute;
+  inset: 0;
+}
+
+.take-back-your-time-and-leave-the-cleaning-to-the-best-cleaning-experts {
+  color: #ffffff;
+  text-align: left;
+  font-family: "DmSans-Bold", sans-serif;
+  font-size: 62px;
+  line-height: 76px;
+  letter-spacing: -0.01em;
+  font-weight: 700;
+}
+.crypto-ipsum-bitcoin-ethereum-dogecoin-litecoin-filecoin-elrond-dogecoin-tether-arweave-ankr-tether-quant-tezos-kusama-stellar-gala-cosmos-kadena-ox-amp-stacks-decentraland-zcash-stellar-dai-chainlink-maker {
+  color: #ffffff;
+  text-align: left;
+  font-family: "DmSans-Medium", sans-serif;
+  font-size: 24px;
+  line-height: 37px;
+  font-weight: 500;
+}
+
+._55-654-541-17 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "NotoSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  display: flex;
+  align-items: flex-start;
+}
+.whatsapp-us-now-on {
+  color: #ffffff;
+  text-align: left;
+  font-family: "NotoSans-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+.left-corner div {
+  margin-bottom: 70px;
+  margin-left: 5%;
+}
+
+textarea.form-field.text-area {
+  height: 6.5rem;
+}
+
+.call-sign img{
+  /* height: 100%;
+  border: 11px white solid;
+  border-radius: 50%; */
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+div.form-group.btnshidden{
+  display: none;
+}
+
+.thank-you-message{
+  height: 50%;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: 
+    rgba(18, 57, 172, 0.48) 0%;
+  padding: 5px;
+}
