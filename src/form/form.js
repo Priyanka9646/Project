@@ -78,17 +78,15 @@ const BeautifulForm = () => {
               experts.
             </div>
             <div className="crypto-ipsum-bitcoin-ethereum-dogecoin-litecoin-filecoin-elrond-dogecoin-tether-arweave-ankr-tether-quant-tezos-kusama-stellar-gala-cosmos-kadena-ox-amp-stacks-decentraland-zcash-stellar-dai-chainlink-maker">
-              Hiring someone to clean your home can feel like a big decision as
-              you want to hire the best house cleaning service you can. So, we
-              gathered some details about professional cleaning franchises to
-              help you!
+            Thank you for choosing our expertise cleaning services. Please fill out the form below with your details to request our specialized cleaning solutions tailored to your needs
+
             </div>
             <div className="_55-654-541-17" >
               <p> Whatsapp Us Now on</p>
               <div className="call-sign">
               <img src={imagePath} alt="image not found"/>
               </div>
-              <p> +55-654-541-17 </p>
+              <p> (778) 385-4385 </p>
             </div>
           </div>
 
